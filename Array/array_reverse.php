@@ -18,12 +18,11 @@ function reverse_array(array $givenArray, bool $preserveKey=false )
     for($i = array_count($givenArray); $i>0; $i--){
         if($preserveKey)
             $reversedArray[$i-1] = $givenArray[$i-1];
-        
     }
 
     return $reversedArray;
 }
 
-echo "<pre>";
-print_r(reverse_array([1, 3, 5, 7, 9],true));
-echo "</pre>";
+// echo "<pre>";
+// print_r(reverse_array([1, 3, 5, 7, 9],true));
+// echo "</pre>";

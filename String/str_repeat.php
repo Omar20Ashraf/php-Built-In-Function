@@ -26,4 +26,4 @@ function string_repeat(string $str, int $repeats =2, bool $separator=false)
     return $result;
 }
 
-echo string_repeat('Repeat',3,' ');
+// echo string_repeat('Repeat',3,' ');

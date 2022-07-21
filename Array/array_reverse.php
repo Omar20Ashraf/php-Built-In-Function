@@ -1,5 +1,6 @@
 <?php 
 
+include 'count.php';
 
 // array_reverse();
 
@@ -14,7 +15,7 @@ function reverse_array(array $givenArray, bool $preserveKey=false )
     # code...
     $reversedArray = array();
 
-    for($i = count($givenArray); $i>0; $i--){
+    for($i = array_count($givenArray); $i>0; $i--){
         if($preserveKey)
             $reversedArray[$i-1] = $givenArray[$i-1];
         

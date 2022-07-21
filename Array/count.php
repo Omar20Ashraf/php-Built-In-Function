@@ -45,13 +45,13 @@ function count_inside_array($elementArray,$count)
     return $count;
 }
 
-$food = array(
-    'fruits' => array('orange', 'banana', 'apple' => array('carrot', 'collard', 'pea' => array('carrot', 'collard', 'pea'))),
-    'veggie' => array('carrot', 'collard', 'pea')
-);
+// $food = array(
+//     'fruits' => array('orange', 'banana', 'apple' => array('carrot', 'collard', 'pea' => array('carrot', 'collard', 'pea'))),
+//     'veggie' => array('carrot', 'collard', 'pea')
+// );
 
-echo 'Normal Count '.array_count($food). '<br>';
-echo 'Normal Count '.count($food). '<br>';
+// echo 'Normal Count '.array_count($food). '<br>';
+// echo 'Normal Count '.count($food). '<br>';
 
-echo 'Recursive Count '.array_count($food, COUNT_RECURSIVE) . '<br>';
-echo 'Recursive Count '.count($food, COUNT_RECURSIVE) . '<br>';
+// echo 'Recursive Count '.array_count($food, COUNT_RECURSIVE) . '<br>';
+// echo 'Recursive Count '.count($food, COUNT_RECURSIVE) . '<br>';
